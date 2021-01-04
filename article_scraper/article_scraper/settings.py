@@ -11,7 +11,7 @@ BOT_NAME = 'article_scraper'
 
 CLOSESPIDER_PAGECOUNT=5
 
-FEED_URI='articles5.json'
+FEED_URI='articles3.json'
 FEED_FORMAT='json'
 
 SPIDER_MODULES = ['article_scraper.spiders']
@@ -69,7 +69,7 @@ ROBOTSTXT_OBEY = True
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'article_scraper.pipelines.CheckItemPipeline': 100,
-   'article_scraper.pipelines.CleanDatePiepeline':200
+   'article_scraper.pipelines.CleanDatePipeline':200 ,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

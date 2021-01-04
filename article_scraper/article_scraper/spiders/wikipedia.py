@@ -12,7 +12,7 @@ class WikipediaSpider(CrawlSpider):
     follow=True)]
 
     custom_settings={
-        'FEED_URI':'articles5.xml',
+        'FEED_URI':'articles3.xml',
         'FEED_FORMAT':'xml'
     }
 
