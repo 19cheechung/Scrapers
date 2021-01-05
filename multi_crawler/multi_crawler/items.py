@@ -6,7 +6,14 @@
 import scrapy
 
 
-class MultiCrawlerItem(scrapy.Item):
+class NewsArticle(scrapy.Item):
+    url=scrapy.Field()
+    source=scrapy.Field()
+    title=scrapy.Field()
+    description=scrapy.Field()
+    date=scrapy.Field()
+    author=scrapy.Field()
+    text=scrapy.Field()
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

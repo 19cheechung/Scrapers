@@ -9,11 +9,6 @@
 
 BOT_NAME = 'multi_crawler'
 
-CLOSESPIDER_PAGECOUNT=5
-
-FEED_URI='articles1.csv'
-FEED_FORMAT='csv'
-
 SPIDER_MODULES = ['multi_crawler.spiders']
 NEWSPIDER_MODULE = 'multi_crawler.spiders'
 
